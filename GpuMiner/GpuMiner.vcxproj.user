@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-C -a kJiGT15WUp64QkfPQZfQhCTZzR6IO7jG -p 121.22.248.17:13654 -opencl-platform 2 -opencl-devices 0 -nvidia-fix -cl-local-work 512 -worker A001</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-C -a kJiGT15WUp64QkfPQZfQhCTZzR6IO7jG -p 121.22.248.17:13654 -opencl-platform 2 -opencl-devices 0 -nvidia-fix -cl-local-work 600 -worker A001</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
