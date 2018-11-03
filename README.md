@@ -8,4 +8,4 @@ XDaggerGPUMinerCUDA.EXE -C -a kJiGT15WUp64QkfPQZfQhCTZzR6IO7jG -p xdagmine.com:1
 
 The original version uses OpenCL mining by setting the - G parameter on the command line. Updated, this version adds a new parameter - C to start CUDA mining.
 
-For miner using,just downloading https://github.com/swordpool/XDaggerCUDAMiner/blob/master/XDAG-CUDA-OPENCL-Release.rar , that's all.
+For miner using,just download https://github.com/swordpool/XDaggerCUDAMiner/blob/master/XDAG-CUDA-OPENCL-Release.rar and extract to any folder, then edit start-mine.bat, fill in your own miner address, run start-mine.bat then enjoy your cuda mining. that's all.
